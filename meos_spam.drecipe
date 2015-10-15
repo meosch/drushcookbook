@@ -1,0 +1,35 @@
+{
+	"name": "MEOS Spam Control",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "en",
+			"arguments": [
+				"badbehavior",
+				"botcha",
+				"captcha",
+				"moopapi",
+				"spambot",
+				"textcaptcha",
+				"user_verify"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		},
+		{
+			"command": "status"
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.0",
+		"author": "Frederick Henderson",
+		"description": "Modules to control spam content, and user on websites. Badbehavior, botcha, captcha, moopapi (botcha dependency), spambot, textcaptcha, and user_verify."
+	}
+}
