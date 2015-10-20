@@ -5,6 +5,17 @@
 	"core": "7",
 	"recipe": [
 		{
+			"command": "dl",
+			"arguments": [
+				"badbehavior",
+				"botcha",
+				"captcha",
+				"moopapi",
+				"spambot",
+				"textcaptcha",
+				"user_verify"
+			]
+		},		{
 			"command": "en",
 			"arguments": [
 				"badbehavior",
