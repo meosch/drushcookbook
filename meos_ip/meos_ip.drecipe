@@ -7,7 +7,7 @@
 		{
 			"command": "make",
 			"arguments": [
-				"--no-core"
+				"--no-core",
 				"https:\/\/github.com\/meosch\/wetkit\/raw\/develop\/meos.make"
 			]
 		},
