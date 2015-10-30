@@ -5,9 +5,8 @@
 	"core": "7",
 	"recipe": [
 		{
-			"command": "",
+			"command": "make",
 			"arguments": [
-				"make",
 				"https:\/\/github.com\/meosch\/wetkit\/raw\/develop\/meos.make"
 			]
 		},
