@@ -1,0 +1,33 @@
+{
+	"name": "MEOS Installation Profile",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "",
+			"arguments": [
+				"make",
+				"https:\/\/github.com\/meosch\/wetkit\/raw\/develop\/meos.make"
+			]
+		},
+		{
+			"command": "cook",
+			"arguments": [
+				"meos_admin_ip"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": 2,
+		"version": "0.1",
+		"author": "Frederick Henderson",
+		"description": "MEOS Installation Profile to \"kick-start\" new websites."
+	}
+}
