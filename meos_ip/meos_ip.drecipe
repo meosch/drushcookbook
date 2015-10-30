@@ -9,7 +9,10 @@
 			"arguments": [
 				"--no-core",
 				"https:\/\/github.com\/meosch\/wetkit\/raw\/develop\/meos.make"
-			]
+			],
+      "options": {
+          "y": true
+      }
 		},
 		{
 			"command": "cook",
