@@ -7,11 +7,11 @@
 		{
 			"command": "make",
 			"arguments": [
-				"--no-core",
 				"https:\/\/github.com\/meosch\/wetkit\/raw\/develop\/meos.make.yml"
 			],
       "options": {
-          "y": true
+          "y": true,
+          "no-core": true
       }
 		},
 		{
