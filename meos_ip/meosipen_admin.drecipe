@@ -1,5 +1,5 @@
 {
-	"name": "MEOS Admin en for IP",
+	"name": "MEOS IP Administration",
 	"drush_recipes_api": "1.0",
 	"weight": "0",
 	"core": "7",
