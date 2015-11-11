@@ -1,0 +1,26 @@
+{
+	"name": "MEOS IP Functionality",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "en",
+			"arguments": [
+				"shared_content"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.1",
+		"author": "Frederick Henderson",
+		"description": "Enable modules for functionality that we want on websites for MEOS IP. Does not download modules."
+	}
+}

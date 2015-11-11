@@ -1,0 +1,28 @@
+{
+	"name": "MEOS IP Security",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "en",
+			"arguments": [
+				"secure_notes",
+				"seckit",
+				"security_review"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.1",
+		"author": "Frederick Henderson",
+		"description": "Enable modules for security functionality that we want on websites for MEOS IP. Does not download modules."
+	}
+}

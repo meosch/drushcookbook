@@ -1,0 +1,31 @@
+{
+	"name": "MEOS IP RWD (Responsive Web Design)",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "en",
+			"arguments": [
+				"context_breakpoint",
+				"context_mobile_detect",
+				"responsive_tables",
+				"touch_icons",
+				"viewport",
+				"views_responsive_grid"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.1",
+		"author": "Frederick Henderson",
+		"description": "Enable modules for responsive web design functionality that we want on websites for MEOS IP. Does not download modules."
+	}
+}

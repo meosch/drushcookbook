@@ -1,0 +1,32 @@
+{
+	"name": "MEOS IP SEO (Search Engine Optimization)",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "en",
+			"arguments": [
+				"beanstag",
+				"navigation404",
+				"google_analytics",
+				"page_title",
+				"piwik",
+				"schemaorg",
+				"seo_checklist"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.1",
+		"author": "Frederick Henderson",
+		"description": "Enable modules for search engine optimization functionality on websites for MEOS IP. Does not download modules."
+	}
+}

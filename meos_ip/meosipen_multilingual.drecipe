@@ -1,0 +1,27 @@
+{
+	"name": "MEOS IP Multilingual",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "en",
+			"arguments": [
+				"de_stemmer",
+				"lingotek"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.1",
+		"author": "Frederick Henderson",
+		"description": "Enable modules for multilingual functionality that we want on websites for MEOS IP. Does not download modules."
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"name": "MEOS IP Website Speed Optimization",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "en",
+			"arguments": [
+				"advagg",
+				"fast_404",
+				"imageapi_optimize",
+				"pasc"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.1",
+		"author": "Frederick Henderson",
+		"description": "Enable modules for website speed optimizations functionality that we want on websites for MEOS IP. Does not download modules."
+	}
+}

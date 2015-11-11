@@ -1,0 +1,32 @@
+{
+	"name": "MEOS IP Spam Control",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "en",
+			"arguments": [
+				"badbehavior",
+				"botcha",
+				"captcha",
+				"moopapi",
+				"spambot",
+				"textcaptcha",
+				"user_verify"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.1",
+		"author": "Frederick Henderson",
+		"description": "Enable modules to control spam content, and user on websites for MEOS IP. Does not download modules."
+	}
+}
