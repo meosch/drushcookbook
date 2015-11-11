@@ -18,7 +18,6 @@
 				"eva",
 				"filter_protocols",
 				"instantfilter",
-				"logging_alerts",
 				"log_filter",
 				"judy",
 				"role_watchdog",
