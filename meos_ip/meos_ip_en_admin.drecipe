@@ -16,6 +16,7 @@
 				"elysia_cron",
 				"entity_operations",
 				"eva",
+				"fpa",
 				"filter_protocols",
 				"instantfilter",
 				"log_filter",
