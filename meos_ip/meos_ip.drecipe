@@ -17,7 +17,8 @@
 		{
 			"command": "cook",
 			"arguments": [
-				"meos_ip_en_admin"
+				"meos_ip_en_admin",
+				"meos_ip_en_devel"
 			]
 		},
 		{
