@@ -1,5 +1,5 @@
 {
-	"name": "MEOS en Editor Experience for IP",
+	"name": "MEOS IP Editor Experience",
 	"drush_recipes_api": "1.0",
 	"weight": "0",
 	"core": "7",
