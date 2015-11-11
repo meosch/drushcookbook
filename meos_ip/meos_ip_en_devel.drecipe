@@ -1,0 +1,49 @@
+{
+	"name": "MEOS Devel en for IP",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "en",
+			"arguments": [
+				"apps_batch",
+				"architecture",
+				"behatrunner",
+				"checklistapi",
+				"cpn",
+				"context",
+				"ds",
+				"enabled_modules",
+				"entityconnect",
+				"entityreference",
+				"entity_view_mode",
+				"feature_set",
+				"features_extra",
+				"features_override",
+				"field_collection_fieldset",
+				"journal",
+				"masquerade",
+				"profile_status_check",
+				"qa_checklist",
+				"rabbit_hole",
+				"sitenotes",
+				"views_data_export",
+				"views_megarow",
+				"views_system"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.0",
+		"author": "Frederick Henderson",
+		"description": "Enable Development modules for MEOS Installation Profile. Does not download modules."
+	}
+}
