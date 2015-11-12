@@ -9,7 +9,7 @@
 			"arguments": [
 				"beanstag",
 				"navigation404",
-				"google_analytics",
+				"googleanalytics",
 				"page_title",
 				"piwik",
 				"schemaorg",
