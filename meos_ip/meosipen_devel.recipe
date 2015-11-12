@@ -23,6 +23,7 @@
 				"features_override",
 				"field_collection_fieldset",
 				"journal",
+				"libraries",
 				"masquerade",
 				"profile_status_check",
 				"qa_checklist",
