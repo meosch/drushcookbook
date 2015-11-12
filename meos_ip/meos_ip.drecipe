@@ -17,7 +17,7 @@
 		{
 			"command": "cook",
 			"arguments": [
-				"meosipen_admin,meosipen_devel,meosipen_email,meosipen_help,meosipen_media,meosipen_multilingual,meosipen_path,meosipen_rss,meosipen_rwd,meosipen_security,meosipen_seo,meosipen_social,meosipen_spam,meosipen_speed,meosipen_workflow"				
+				"meosipen_admin,meosipen_devel,meosipen_email,meosipen_help,meosipen_media,meosipen_multilingual,meosipen_path,meosipen_rss,meosipen_rwd,meosipen_security,meosipen_seo,meosipen_social,meosipen_spam,meosipen_speed,meosipen_workflow,meosipdis_uninstall"
 			]
 		},
 		{
