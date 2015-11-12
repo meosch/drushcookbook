@@ -13,7 +13,7 @@
     {
       "command": "pm-uninstall",
       "arguments": [
-        "color,comment,dashboard,taxonomy,dblog,search,shortcut,toolbar,overlay,rdf"
+        "color,comment,taxonomy,search,toolbar,overlay"
       ]
     }
   ],
