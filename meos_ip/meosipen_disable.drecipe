@@ -1,5 +1,5 @@
 {
-  "name": "less crappy standard profile",
+  "name": "MEOS IP Disable",
   "drush_recipes_api": "1.0",
   "core": "7",
   "weight": 0,
@@ -7,7 +7,7 @@
     {
       "command": "dis",
       "arguments": [
-        "color,comment,dashboard,taxonomy,dblog,search,shortcut,toolbar,overlay,rdf"
+        "color,comment,taxonomy,search,toolbar,overlay"
       ]
     },
     {
@@ -18,9 +18,9 @@
     }
   ],
   "metadata": {
-    "description": "Disables modules from standard that really are not standard and are not used on the average site.",
-    "version": "1.0",
+    "description": "Disables and un-installs modules from standard that really are not used on the average MEOS site. Original recipe by btopro - standard_unsuck.drecipe",
+    "version": "0.1",
     "type": "add-on",
-    "author": "btopro"
+    "author": "Frederick Henderson"
   }
 }
