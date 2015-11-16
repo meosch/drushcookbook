@@ -1,0 +1,27 @@
+{
+	"name": "MEOS IP Theme",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "en",
+			"arguments": [
+				"adminimal_theme",
+				"adminimal_admin_menu",
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.1",
+		"author": "Frederick Henderson",
+		"description": "Enable modules and themes for theming on websites for MEOS IP. Does not download modules."
+	}
+}
