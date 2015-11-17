@@ -8,7 +8,7 @@
 			"command": "en",
 			"arguments": [
 				"adminimal_theme",
-				"adminimal_admin_menu",
+				"adminimal_admin_menu"
 			]
 		},
 		{
