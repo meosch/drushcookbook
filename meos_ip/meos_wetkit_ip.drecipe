@@ -1,0 +1,37 @@
+{
+	"name": "MEOS Wetkit Installation Profile",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": {
+		  "0": {
+			"madlib": "TRUE",
+			"command": "make",
+			"arguments": [
+			"https:\/\/github.com\/meosch\/wetkit\/raw\/[git-branch]\/build-wetkit-release.make"
+			],
+      "options": {
+          "y": true,
+          "no-core": true
+      },
+      "tokens": {
+		  "[git-branch]": "Which git branch should I install from? "
+		  },
+		"defaults": {
+		  "[git-branch]": "develop"
+		  }
+		},
+		"1": {
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	},
+	"metadata": {
+		"type": 2,
+		"version": "0.1",
+		"author": "Frederick Henderson",
+		"description": "MEOS Wetkit Installation Profile for new websites."
+	}
+}
