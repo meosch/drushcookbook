@@ -3,30 +3,37 @@
 	"drush_recipes_api": "1.0",
 	"weight": "0",
 	"core": "7",
-	"recipe": [
-		{
+	"recipe": {
+		  "0": {
+		  "madlib": "TRUE",
 			"command": "make",
 			"arguments": [
-				"https:\/\/github.com\/meosch\/wetkit\/raw\/develop\/meos.make.yml"
+				"https:\/\/github.com\/meosch\/wetkit\/raw\/[git-branch]\/meos.make.yml"
 			],
       "options": {
           "y": true,
           "no-core": true
-      }
+      },
+      "tokens": {
+		  "[git-branch]": "Which git branch should I install from? "
+		  },
+		"defaults": {
+		  "[git-branch]": "develop"
+		  }
 		},
-		{
+		  "1": {
 			"command": "cook",
 			"arguments": [
 				"meosipen_admin,meosipen_devel,meosipen_email,meosipen_help,meosipen_media,meosipen_multilingual,meosipen_path,meosipen_rss,meosipen_rwd,meosipen_security,meosipen_seo,meosipen_social,meosipen_spam,meosipen_speed,meosipen_workflow,meosipdis_uninstall"
 			]
 		},
-		{
+		  "2": {
 			"command": "cc",
 			"arguments": [
 				"all"
 			]
 		}
-	],
+	},
 	"metadata": {
 		"type": 2,
 		"version": "0.1",

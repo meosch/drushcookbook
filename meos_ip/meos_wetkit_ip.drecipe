@@ -8,24 +8,20 @@
 			"madlib": "TRUE",
 			"command": "make",
 			"arguments": [
-			"https:\/\/github.com\/meosch\/wetkit\/raw\/[git-branch]\/build-wetkit-release.make"
+			"https://github.com/meosch/wetkit/raw/[git-branch]/build-wetkit-release.make",
+			"[installation-folder]"
 			],
       "options": {
-          "y": true,
-          "no-core": true
+          "y": true
       },
       "tokens": {
-		  "[git-branch]": "Which git branch should I install from? "
+		  "[git-branch]": "Which git branch should I install from? ",
+		  "[installation-folder]": "In what folder should I install MEOS wetkit?"
 		  },
 		"defaults": {
-		  "[git-branch]": "develop"
+		  "[git-branch]": "develop",
+		  "[installation-folder]": "./"
 		  }
-		},
-		"1": {
-			"command": "cc",
-			"arguments": [
-				"all"
-			]
 		}
 	},
 	"metadata": {
