@@ -25,6 +25,6 @@
 		"type": "add-on",
 		"version": "1.0",
 		"author": "Frederick Henderson",
-		"description": "Functionality to facilitate a content staging workflow for Drupal WxT powered by Deploy, REST and UUID."
+		"description": "Functionality to facilitate a content staging workflow for Drupal WxT powered by Deploy, REST and UUID. This recipe only works on a Drupal Wetkit Distro install to install the Wetkit Deployment feature. This is used to deploy content to other websites."
 	}
 }
