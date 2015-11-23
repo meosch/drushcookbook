@@ -17,6 +17,7 @@
 				"entity_operations",
 				"eva",
 				"fpa",
+				"file_maintenance",
 				"filter_protocols",
 				"instantfilter",
 				"log_filter",
