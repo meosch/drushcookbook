@@ -1,0 +1,30 @@
+{
+	"name": "Wetkit Deployment",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "make",
+			"options": {
+				"no-core": true
+			},
+			"arguments": [
+				"profiles\/wetkit\/modules\/custom\/wetkit_deployment\/wetkit_deployment.make",
+				"profiles\/wetkit\/modules\/custom\/wetkit_deployment\/"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"all"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.0",
+		"author": "Frederick Henderson",
+		"description": "Functionality to facilitate a content staging workflow for Drupal WxT powered by Deploy, REST and UUID."
+	}
+}
