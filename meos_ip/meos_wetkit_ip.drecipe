@@ -8,7 +8,7 @@
 			"madlib": "TRUE",
 			"command": "make",
 			"arguments": [
-			"https://github.com/meosch/wetkit/raw/[git-branch]/build-wetkit-release.make",
+			"https://github.com/meosch/wetkit/raw/[git-branch]/build-wetkit.make",
 			"[installation-folder]"
 			],
       "options": {
