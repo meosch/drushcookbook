@@ -8,8 +8,8 @@
 			"command": "en",
 			"arguments": [
 				"admin",
-				"admin_views",
 				"admin_menu",
+				"admin_views",
 				"coffee",
 				"drd_server",
 				"aes",
