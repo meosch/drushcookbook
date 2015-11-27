@@ -1,0 +1,36 @@
+{
+	"name": "Drush Extensions",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "7",
+	"recipe": [
+		{
+			"command": "dl",
+			"arguments": [
+				"deploy_check",
+				"drush_instance",
+				"drush_iq",
+				"drush_language",
+				"drush_recipes",
+				"dru_sql_sync_pipe",
+				"registry_rebuild",
+				"security_check",
+				"settingsphp",
+				"syncdb",
+				"updatepath"
+			]
+		},
+		{
+			"command": "cc",
+			"arguments": [
+				"drush"
+			]
+		}
+	],
+	"metadata": {
+		"type": "add-on",
+		"version": "1.0",
+		"author": "Frederick Henderson",
+		"description": "Install the Drush Extensions we normally use except Drush Recipes which will need to be installed to run this recipe."
+	}
+}
